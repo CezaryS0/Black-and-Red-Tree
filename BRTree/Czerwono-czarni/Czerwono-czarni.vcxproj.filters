@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\nvwa">
+      <UniqueIdentifier>{b1020bff-d1ef-4a8e-965c-6dab42de6708}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="funkcje.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="nvwa\bool_array.cpp">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClCompile>
+    <ClCompile Include="nvwa\debug_new.cpp">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClCompile>
+    <ClCompile Include="nvwa\file_line_reader.cpp">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClCompile>
+    <ClCompile Include="nvwa\mem_pool_base.cpp">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClCompile>
+    <ClCompile Include="nvwa\mmap_reader_base.cpp">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClCompile>
+    <ClCompile Include="nvwa\static_mem_pool.cpp">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="drzewo.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="funkcje.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\_nvwa.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\bool_array.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\c++11.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\class_level_lock.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\cont_ptr_utils.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\debug_new.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\fast_mutex.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\fc_queue.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\file_line_reader.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\fixed_mem_pool.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\functional.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\istream_line_reader.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\mem_pool_base.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\mmap_byte_reader.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\mmap_line_reader.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\mmap_reader_base.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\object_level_lock.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\pctimer.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\set_assign.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\split.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\static_assert.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\static_mem_pool.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+    <ClInclude Include="nvwa\tree.h">
+      <Filter>Pliki nagłówkowe\nvwa</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
